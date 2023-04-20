@@ -27,7 +27,7 @@ export default function AboutSection() {
               <div className=''>
                 <div className=''>
                   <span className='font-bold'>Frontend: </span> React, Next.js,
-                  Tailwind CSS, Material UI, Redux, VueJs, Nuxt
+                  Tailwind, MaterialUI, Redux, VueJs, Nuxt
                 </div>
 
                 <div className=''>
