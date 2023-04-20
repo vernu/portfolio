@@ -7,10 +7,11 @@ export default function AboutSection() {
         <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
           <div className=' '>
             <div className='container mx-auto '>
-              <h2 className='text-xl font-bold mb-4'>About</h2>
+              <h2 className='text-xl font-bold mb-4'>Hi, I&apos;m Israel Abebe!</h2>
 
               <div className='text-justify'>
-                Full-stack developer with over 3 years of experience in
+                I&apos;m a Full-stack developer based in Addis Ababa, Ethiopia (UTC+3)<br/><br/>
+                I have over 3 years of experience in
                 developing web and mobile applications using modern
                 technologies. Proficient in both front-end and back-end
                 development, with a strong understanding of database design.
