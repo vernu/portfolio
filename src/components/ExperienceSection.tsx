@@ -25,7 +25,7 @@ const experienceItems = [
     ],
   },
   {
-    company: 'ArifPay Financial Technologies',
+    company: 'Arifpay Financial Technologies',
     position: 'Software Developer',
     startDate: 'Jun 2021',
     endDate: 'Dec 2021',
@@ -53,7 +53,7 @@ export default function ExperienceSection() {
                 {experiece.endDate})
               </p>
 
-              <ul className='list-outside list-disc px-4 space-y-2 pt-2 pb-8 '>
+              <ul className='list-outside list-disc px-4 space-y-2 pt-2 pb-8 text-justify'>
                 {experiece.description.map((item, i) => (
                   <li key={i}>{item}</li>
                 ))}
