@@ -17,11 +17,11 @@ export const projects: Project[] = [
       'https://ik.imagekit.io/vernu/portfolio/Screenshot_2023-03-19_at_1.41.07_PM.png?updatedAt=1679222499485',
   },
   {
-    title: 'Pomodoro Timer',
+    title: 'Lorem Ipsum',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus ligula in justo pulvinar vestibulum.',
     image:
-      'https://ik.imagekit.io/vernu/portfolio/Screenshot_2023-03-19_at_1.32.18_PM.png?updatedAt=1679221967804',
+      'https://ik.imagekit.io/vernu/comming.soon',
   },
   {
     title: 'AfroSoundz Radio',

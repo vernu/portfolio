@@ -6,4 +6,5 @@ export const basicInfo: BasicInfo = {
   phone: '+251912657519',
   email: 'vernu1997@gmail.com',
   linkedin: 'https://linkedin.com/in/israelabebe',
+  github: 'https://github.com/vernu',
 }
