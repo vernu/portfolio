@@ -46,4 +46,14 @@ export const workExperience: ExperienceItem[] = [
       'Technologies used: React, Java, Spring, Flutter',
     ],
   },
+  {
+    company: 'LinkUp Addis',
+    position: 'Software Developer',
+    startDate: 'Feb 2020',
+    endDate: 'Jul 2021',
+    bulletPoints: [
+      'Developed a number of web and mobile applications for clients as well as in-nouse products',
+      'Technologies used: Android/Java, Wordpress, Php, Laravel, MySQL, Flutter, Firebase',
+    ],
+  },
 ]
