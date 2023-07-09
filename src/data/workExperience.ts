@@ -36,13 +36,14 @@ export const workExperience: ExperienceItem[] = [
     ],
   },
   {
-    company: 'Arifpay Financial Technologies',
+    company: 'Arifpay',
     position: 'Software Developer',
     startDate: 'Jun 2021',
     endDate: 'Dec 2021',
     bulletPoints: [
       'Worked on large-scale fintech solutions including mPOS and payment gateway.',
       'Worked on a web-based dashboard application',
+      'Technologies used: React, Java, Spring, Flutter',
     ],
   },
 ]
