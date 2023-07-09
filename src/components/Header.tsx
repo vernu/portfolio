@@ -9,9 +9,8 @@ interface HeaderProps {
 
 export default function Header({ basicInfo }: HeaderProps) {
   const { name, title, phone, email, linkedin, github } = basicInfo
-
   return (
-    <header className='flex flex-col lg:flex-row lg:items-center justify-between py-4 px-6 lg:px-8 bg-gray-800 text-white'>
+    <header className='flex flex-col lg:flex-row lg:items-center justify-between py-4 px-6 lg:px-8 bg-gray-800 text-white md:sticky top-0'>
       <div>
         <h1 className='text-2xl font-bold'>{name}</h1>
         <p className='text-sm'>{title}</p>
