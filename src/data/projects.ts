@@ -2,30 +2,41 @@ import { Project } from './types'
 
 export const projects: Project[] = [
   {
-    title: 'SMS Gateway',
+    title: 'TextBee - SMS Gateway',
     description: 'A platform that turns your phone into a SMS gateway.',
     image:
-      'https://ik.imagekit.io/vernu/portfolio/Screenshot_2023-03-19_at_2.56.05_PM.png?updatedAt=1679227051628',
+      'https://ik.imagekit.io/vernu/portfolio/Screenshot_2023-06-18_at_11.22.03_AM.png?updatedAt=1687076888398',
     tech: ['React', 'Next.js', 'Node', 'NestJs', 'MongoDB'],
-    previewLink: 'https://sms.vernu.dev',
-    githubLink: 'https://github.com/vernu/sms-gateway',
+    previewLink: 'https://textbee.vernu.dev',
+    githubLink: 'https://github.com/vernu/textbee',
+  },
+  {
+    title: 'Travel ETH',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus ligula in justo pulvinar vestibulum.',
+    image:
+      'https://ik.imagekit.io/vernu/portfolio/Screenshot_2023-07-09_at_10.02.13_AM.png?updatedAt=1688886210378',
+    tech: ['React', 'Next.js', 'NodeJs', 'Strapi CMS'],
   },
   {
     title: 'Real.et',
     description:
       'A real estate platform that connects buyers and sellers of properties. ',
     image:
-      'https://ik.imagekit.io/vernu/portfolio/realetwhitelowres.jpeg?updatedAt=1686288911533',
+      'https://ik.imagekit.io/vernu/portfolio/7b85feb4-9ba8-40d8-af83-255f35daf19d.png?updatedAt=1688902086687',
     tech: ['React', 'Next.js', 'NodeJs', 'Express', 'MongoDB'],
     previewLink: 'https://real.et',
   },
-  // {
-  //   title: 'Personal Finance Mgmnt',
-  //   description:
-  //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus ligula in justo pulvinar vestibulum.',
-  //   image: 'https://ik.imagekit.io/vernu/portfolio/perosnalfinalce',
-  //   tech: ['React', 'Next.js', 'GraphQL', 'Prisma'],
-  // },
+  {
+    title: 'ArtistDen',
+    description: `A one-stop destination for art lovers and creators to
+      connect, and discover unique pieces of art including
+      drawings, paintings, string arts, woodwork, and more.`,
+    image:
+      'https://ik.imagekit.io/vernu/portfolio/Screenshot_2023-07-09_at_9.58.42_AM.png?updatedAt=1688885969525',
+    tech: ['Vue', 'Nuxt', 'Firebase'],
+  },
+
   {
     title: 'AfroSoundz Radio',
     description:

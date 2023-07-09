@@ -6,9 +6,9 @@ interface PortfolioSectionProps {
 }
 export default function PortfolioSection({ projects }: PortfolioSectionProps) {
   return (
-    <section className='py-16'>
+    <section className='py-16 bg-gray-200'>
       <div className='container px-4 mx-auto'>
-        <h2 className='text-3xl font-bold mb-4'>Projects</h2>
+        <h2 className='text-2xl font-bold mb-4'>Projects</h2>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4'>
           {projects.map((project: Project) => (
             <PortfolioCard key={project.title} project={project} />

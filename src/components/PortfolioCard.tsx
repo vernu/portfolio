@@ -10,7 +10,7 @@ export default function PortfolioCard({ project }: PortfolioCardProps) {
   const { title, description, tech, image, previewLink, githubLink } = project
 
   return (
-    <div className=' bg-white rounded shadow-md overflow-hidden flex flex-col'>
+    <div className=' bg-white rounded-md shadow-mnd overflow-hidden flex flex-col'>
       <Image
         src={image ?? '/images/placeholder.jpeg'}
         alt={title}
@@ -21,7 +21,7 @@ export default function PortfolioCard({ project }: PortfolioCardProps) {
       />
       <div className='px-6 py-2 mb-auto'>
         <div className='mb-2 flex flex-row justify-between'>
-          <span className='font-bold text-lg'>{title}</span>
+          <span className='font-bold text-md'>{title}</span>
           <div>
             {previewLink && (
               <a
@@ -46,7 +46,7 @@ export default function PortfolioCard({ project }: PortfolioCardProps) {
             )}
           </div>
         </div>
-        <p className='text-gray-700 text-md text-justify'>{description}</p>
+        <p className='text-gray-700 text-sm text-justify'>{description}</p>
       </div>
       <div className='px-6 py-4'>
         {tech?.map((item) => (
