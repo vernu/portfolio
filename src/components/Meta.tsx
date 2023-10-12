@@ -5,7 +5,7 @@ export const Meta = ({
   summary = null,
   keywords = 'software, developer, engineer, fullstack, react, node, nextjs',
   siteUrl = 'https://israelabebe.com',
-  image = '/img.jpg',
+  image = '/img.png',
 }) => {
   return (
     <Head>

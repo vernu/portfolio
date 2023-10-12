@@ -2,6 +2,16 @@ import { Project } from './types'
 
 export const projects: Project[] = [
   {
+    title: 'Finovo - Personal Finance Planner',
+    description:
+      'A personal finance planning, budgeting and management platform',
+    image:
+      'https://ik.imagekit.io/vernu/portfolio/Screenshot%202023-08-19%20at%2012.32.28%20PM.png?updatedAt=1696440248952',
+    tech: ['React', 'Next.Js', 'GraphQL', 'Postgres'],
+    previewLink: 'https://finovo.vernu.dev',
+    githubLink: 'https://github.com/vernu/finovo',
+  },
+  {
     title: 'TextBee - SMS Gateway',
     description: 'A platform that turns your phone into a SMS gateway.',
     image:
@@ -10,13 +20,24 @@ export const projects: Project[] = [
     previewLink: 'https://textbee.vernu.dev',
     githubLink: 'https://github.com/vernu/textbee',
   },
+  // {
+  //   title: 'Travel ETH',
+  //   description:
+  //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus ligula in justo pulvinar vestibulum.',
+  //   image:
+  //     'https://ik.imagekit.io/vernu/portfolio/Screenshot_2023-07-09_at_10.02.13_AM.png?updatedAt=1688886210378',
+  //   tech: ['React', 'Next.js', 'NodeJs', 'Strapi CMS'],
+  // },
+
   {
-    title: 'Travel ETH',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus ligula in justo pulvinar vestibulum.',
+    title: 'ArtistDen',
+    description: `A one-stop destination for art lovers and creators to
+      connect, and discover unique pieces of art including
+      drawings, paintings, string arts, woodwork, and more.`,
     image:
-      'https://ik.imagekit.io/vernu/portfolio/Screenshot_2023-07-09_at_10.02.13_AM.png?updatedAt=1688886210378',
-    tech: ['React', 'Next.js', 'NodeJs', 'Strapi CMS'],
+      'https://ik.imagekit.io/vernu/portfolio/Screenshot_2023-07-09_at_9.58.42_AM.png?updatedAt=1688885969525',
+    tech: ['Vue', 'Nuxt', 'Firebase'],
+    previewLink: 'https://artistden.vernu.dev',
   },
   {
     title: 'Real.et',
@@ -27,18 +48,9 @@ export const projects: Project[] = [
     tech: ['React', 'Next.js', 'NodeJs', 'Express', 'MongoDB'],
     previewLink: 'https://real.et',
   },
-  {
-    title: 'ArtistDen',
-    description: `A one-stop destination for art lovers and creators to
-      connect, and discover unique pieces of art including
-      drawings, paintings, string arts, woodwork, and more.`,
-    image:
-      'https://ik.imagekit.io/vernu/portfolio/Screenshot_2023-07-09_at_9.58.42_AM.png?updatedAt=1688885969525',
-    tech: ['Vue', 'Nuxt', 'Firebase'],
-  },
 
   {
-    title: 'AfroSoundz Radio',
+    title: 'AfroSoundz',
     description:
       'A music streaming platform with a mission to present modern, culturally engaging African music to people all over the world.',
     image:

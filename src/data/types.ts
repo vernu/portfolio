@@ -7,9 +7,9 @@ export interface BasicInfo {
   github?: string
 }
 
-export interface SkillCategory {
-  category: string
-  skills: string[]
+export interface Skill {
+  name: string
+  icon: string
 }
 
 export interface ExperienceItem {
@@ -31,7 +31,7 @@ export interface Project {
 
 export interface Profile {
   basicInfo: BasicInfo
-  skills: SkillCategory[]
+  skills: Skill[]
   workExperience: ExperienceItem[]
   projects: Project[]
 }
