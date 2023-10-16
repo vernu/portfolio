@@ -1,15 +1,8 @@
 import React from 'react'
-
-import { BasicInfo, Skill } from '@/data/types'
 import Image from 'next/image'
 import AnimatedScrollWrapper from './AnimatedScrollWrapper'
 
-interface AboutSectionProps {
-  basicInfo: BasicInfo
-  skills: Skill[]
-}
-
-export default function AboutSection({ basicInfo, skills }: AboutSectionProps) {
+export default function AboutSection() {
   return (
     <AnimatedScrollWrapper>
       <section className='py-16'>
@@ -44,11 +37,6 @@ export default function AboutSection({ basicInfo, skills }: AboutSectionProps) {
                   height={500}
                   className='m-auto w-72 hover:scale-[109%] transition-transform duration-1000'
                 />
-                {/* <img
-                src='/profile-pic (14).png'
-                alt='skills'
-                className='m-auto w-72 border-orange-600 border-2 rounded-full shadow-md transform-y rotdate-180'
-              /> */}
               </div>
             </div>
           </div>

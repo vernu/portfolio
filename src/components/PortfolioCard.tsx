@@ -1,10 +1,10 @@
 import { Project } from '@/data/types'
 import Image from 'next/image'
-import React, { useContext } from 'react'
-import { ModalContext } from './ModalContext'
+import React from 'react'
 import AnimatedScrollWrapper from './AnimatedScrollWrapper'
 import { BsGithub } from 'react-icons/bs'
 import { BiLinkExternal } from 'react-icons/bi'
+import { IconButton } from './IconButton'
 
 interface PortfolioCardProps {
   project: Project
@@ -13,14 +13,9 @@ interface PortfolioCardProps {
 export default function PortfolioCard({ project }: PortfolioCardProps) {
   const { title, description, tech, image, previewLink, githubLink } = project
 
-  const { showModal } = useContext(ModalContext)
-
   return (
     <AnimatedScrollWrapper>
-      <div
-        className='rounded-lg border-solid border-[0.5px] border-gray-400  overflow-hidden flex flex-col md:hover:drop-shadow-lg cursor-pointer md:hover:shadow-xl md:hover:scale-[102%] transition-transform duration-300 md:min-h-[360px]'
-        onClick={() => {}}
-      >
+      <div className='rounded-lg border-solid border-[0.5px] border-gray-400  overflow-hidden flex flex-col md:hover:drop-shadow-lg cursor-pointer md:hover:shadow-xl md:hover:scale-[102%] transition-transform duration-300 md:min-h-[360px]'>
         <Image
           src={image ?? '/images/placeholder.jpeg'}
           alt={title}
@@ -34,24 +29,18 @@ export default function PortfolioCard({ project }: PortfolioCardProps) {
             <span className='font-semibold text-md'>{title}</span>
             <div className='text-md  flex flex-row'>
               {previewLink && (
-                <a
-                  href={previewLink}
+                <IconButton
+                  link={previewLink}
+                  icon={<BiLinkExternal />}
                   target='_blank'
-                  rel='noopener noreferrer'
-                  className='px-1 underline hover:text-cyan-500'
-                >
-                  <BiLinkExternal />
-                </a>
+                />
               )}
               {githubLink && (
-                <a
-                  href={githubLink}
+                <IconButton
+                  link={githubLink}
+                  icon={<BsGithub />}
                   target='_blank'
-                  rel='noopener noreferrer'
-                  className='px-1 underline hover:text-cyan-500'
-                >
-                  <BsGithub />
-                </a>
+                />
               )}
             </div>
           </div>

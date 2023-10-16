@@ -46,11 +46,7 @@ export const Meta = ({
         name='apple-mobile-web-app-title'
         content={title}
       />
-      <meta
-        key='summary'
-        name='summary'
-        content={summary ? summary : description}
-      />
+      <meta key='summary' name='summary' content={summary || description} />
     </Head>
   )
 }
