@@ -1,8 +1,8 @@
 import '@/styles/globals.css'
-import Footer from '@/components/Footer'
-import Header from '@/components/Header'
+import Footer from '@/components/layout/Footer'
+import Header from '@/components/layout/Header'
 import { basicInfo } from '@/data/basicInfo'
-import Analytics from '@/components/Analytics'
+import Analytics from '@/components/shared/Analytics'
 
 interface RootLayoutProps {
   children: React.ReactNode

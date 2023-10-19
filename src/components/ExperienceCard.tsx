@@ -1,5 +1,5 @@
 import { ExperienceItem } from '@/data/types'
-import AnimatedScrollWrapper from './AnimatedScrollWrapper'
+import AnimatedScrollWrapper from './shared/AnimatedScrollWrapper'
 
 interface ExperienceCardProps {
   experience: ExperienceItem

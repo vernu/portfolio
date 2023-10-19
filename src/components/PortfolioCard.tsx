@@ -1,10 +1,10 @@
 import { Project } from '@/data/types'
 import Image from 'next/image'
 import React from 'react'
-import AnimatedScrollWrapper from './AnimatedScrollWrapper'
 import { BsGithub } from 'react-icons/bs'
 import { BiLinkExternal } from 'react-icons/bi'
-import { IconButton } from './IconButton'
+import { IconButton } from './shared/IconButton'
+import AnimatedScrollWrapper from './shared/AnimatedScrollWrapper'
 
 interface PortfolioCardProps {
   project: Project

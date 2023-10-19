@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import AnimatedScrollWrapper from './AnimatedScrollWrapper'
+import AnimatedScrollWrapper from './shared/AnimatedScrollWrapper'
 
 export default function AboutSection() {
   return (

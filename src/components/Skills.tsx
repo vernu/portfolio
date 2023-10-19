@@ -1,9 +1,9 @@
 'use client'
 import React from 'react'
-import AnimatedScrollWrapper from './AnimatedScrollWrapper'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { Skill } from '@/data/types'
+import AnimatedScrollWrapper from './shared/AnimatedScrollWrapper'
 
 interface SkillsProps {
   skills: Skill[]

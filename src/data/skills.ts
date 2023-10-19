@@ -25,10 +25,6 @@ export const skills: Skill[] = [
     name: 'React',
     icon: 'https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg',
   },
-  // {
-  //   name: 'VueJs',
-  //   icon: 'https://www.vectorlogo.zone/logos/vuejs/vuejs-icon.svg',
-  // },
   {
     name: 'Flutter',
     icon: 'https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg',

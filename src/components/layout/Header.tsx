@@ -2,6 +2,7 @@ import React from 'react'
 import { BsGithub, BsLinkedin, BsWhatsapp } from 'react-icons/bs'
 import { TfiEmail } from 'react-icons/tfi'
 import { BasicInfo } from '@/data/types'
+import Button from '../shared/Button'
 
 interface HeaderProps {
   basicInfo: BasicInfo
@@ -40,15 +41,7 @@ export default function Header({ basicInfo }: HeaderProps) {
       </div>
       <div className='flex md:items-center mt-4 md:mt-0 flex-col md:flex-row font-[200]'>
         {links.map(({ link, icon, text }) => (
-          <a
-            key={text}
-            href={link}
-            className='flex items-center mr-4'
-            target='_blank'
-          >
-            <span className='mr-2'>{icon}</span>
-            {text}
-          </a>
+          <Button key={link} link={link} icon={icon} text={text} />
         ))}
       </div>
     </header>
